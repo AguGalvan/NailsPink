@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+}
+
+body{
+font-family: 'Montserrat', sans-serif;
+background-color: rgb(209, 209, 191);
+color:rgb(255, 0, 76);
+overflow-x: hidden;
+
+}
+
+/*grids*/
+
+#grid-index{
+    display: grid;  
+    grid-template-columns: 1fr;
+    grid-template-rows: 83px 520px 70px;
+    grid-template-areas:
+                        "header"
+                        "main"
+                        "footer"
+
+
+}
+
+#grid-esculpidas{
+    display: grid;  
+    grid-template-columns: 1fr;
+    grid-template-rows: 83px 520px 70px;
+    grid-template-areas:
+                        "header"
+                        "main"
+                        "footer"
+
+
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    background-color: rgb(23, 2, 27);
+    justify-content:flex-end;
+    grid-area: header;
+
+}
+
+.textoIndex{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1rem; 
+    padding-bottom: 2rem; 
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.logoHeader{
+    font-size: 3rem;
+    color:rgb(255, 0, 212)
+
+}
+
+
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    height: 70px;
+    color:rgb(255, 0, 212)
+
+}
+
+
+.navegacion ul{
+    display: flex;
+
+}
+
+.navegacion ul li{
+    width: 100px;
+    padding-inline: 5rem;
+
+}
+
+
+
+/*links hacia las otras paginas*/
+
+
+main{
+grid-area: main;
+
+}
+
+.cardImg img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.subCards{
+    text-align: center;
+    width: 80%;
+    height: 80%;
+}
+
+.cardEsculpidas{
+    font-size: x-large;
+margin-left: 3%;
+}
+
+
+.contenedor{
+    display: flex; 
+    flex-direction: row;
+    width: 100vw;
+   
+}
+
+
+footer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items:center;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-color: rgb(0, 0, 0);
+    grid-area: footer;
+    padding-left: 3rem;
+    
+    
+
+}
+
+.imgFooter{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    padding-right: 2rem;
+}
+
+.contenedorFooter{
+
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+
+}
+
+
+
+
+
+/* hasta aca es el index*/
+
+
+
+/*esculpidas*/
+
+.mainEsculpidas{
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+padding-top: 20vh;
+color: rgb(255, 0, 0);
+
+
+}
+
+.titEsculpidas{
+    display: flex;
+    padding-bottom: 3rem;
+    font-size: 4rem;
+}
+
+.divEsculpidas{
+    display: flex;
+    height: 80%;
+    width: 80%;
+    padding-left: 10rem;
+   
+}
+
+.textoEsculpidas{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1rem; 
+    padding-bottom: 2rem; 
+    padding-left: 20rem;
+    padding-right: 20rem;
+    
+}
+
+.subEsculpidas{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+
+/*comienzo de esmaltadas*/
+
+
+.mainEsmaltadas{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top: 20vh;
+    color: rgb(255, 0, 0);
+    
+    
+    }
+    
+    .titEsmaltadas{
+        display: flex;
+        padding-bottom: 3rem;
+        font-size: 4rem;
+    }
+    
+    .divEsmaltadas{
+        display: flex;
+        height: 80%;
+        width: 80%;
+        padding-left: 10rem;
+       
+    }
+    
+    .textoEsmaltadas{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding-top: 1rem; 
+        padding-bottom: 2rem; 
+        padding-left: 20rem;
+        padding-right: 20rem;
+        
+    }
+    
+    .subEsmaltadas{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
+
+    /*comienzo Kapping*/
+
+
+    .mainKapping{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding-top: 20vh;
+        color: rgb(255, 0, 0);
+        
+        
+        }
+        
+        .titKapping{
+            display: flex;
+            padding-bottom: 3rem;
+            font-size: 4rem;
+        }
+        
+        .divKapping{
+            display: flex;
+            height: 80%;
+            width: 80%;
+            padding-left: 10rem;
+           
+        }
+        
+        .textoKapping{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            padding-top: 1rem; 
+            padding-bottom: 2rem; 
+            padding-left: 20rem;
+            padding-right: 20rem;
+            
+        }
+        
+        .subKapping{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            padding-top: 1rem;
+        }
+    
+/*comienzo Manicura Rusa*/
+
+
+
+.mainManicura{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top: 20vh;
+    color: rgb(255, 0, 0);
+    
+    
+    }
+    
+    .titManicura{
+        display: flex;
+        padding-bottom: 3rem;
+        font-size: 4rem;
+    }
+    
+    .divManicura{
+        display: flex;
+        height: 80%;
+        width: 80%;
+        padding-left: 10rem;
+       
+    }
+    
+    .textoManicura{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding-top: 1rem; 
+        padding-bottom: 2rem; 
+        padding-left: 20rem;
+        padding-right: 20rem;
+        
+    }
+    
+    .subManicura{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
+
+
+
+    /*comienzo de cursos*/
+
+
+
+.mainCursos{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top: 20vh;
+    color: rgb(255, 0, 0);
+}
+
+
+.titCursos{
+display: flex;
+padding-bottom: 3rem;
+font-size: 4rem;
+}
+
+.divCursos{
+    display: flex;
+    height: 80%;
+    width: 80%;
+    padding-left: 10rem;
+}
+
+.subCursos{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+
+.textoCursos{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1rem; 
+    padding-bottom: 2rem; 
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+
+.titAnotate{
+display: flex;
+padding-bottom: 3rem;
+font-size: 4rem;
+
+}
+
+
+
+
+
+
+/*@medias*/
+
+.burger{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+@media(max-width: 767px){
+
+
+/*anti-header*/
+.logoHeader{
+    font-size: 2rem;
+    color:rgb(255, 0, 212)
+
+}
+.ul, li{
+    display: none;
+
+}
+
+
+/*anti-index*/
+
+#grid-index{
+    display: grid;  
+    grid-template-columns: 1fr;
+    grid-template-rows: 83px 1200px 400px;
+    grid-template-areas:
+                        "header"
+                        "main"
+                        "footer"
+
+
+}
+
+
+.textoIndex{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mainImg{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contenedor{
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-left: 240px;
+   width: 50%;
+   height: 50%;
+   padding-bottom: 30rem;
+}
+
+
+
+
+.cardImg{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.subCards{
+padding-right: 70px;
+font-size: 80%;
+}
+
+
+
+/*anti-footer*/
+
+footer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items:center;
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+
+.subFooter{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.footerImg{
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/*hamburguesita*/
+
+
+.burger{
+    width: 25px;
+    cursor: pointer;
+    display: block;
+     
+}
+
+
+/*anti-esculpidas*/
+
+
+
+.mainEsculpidas{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top: 4vh;
+    color: rgb(255, 0, 0);
+    
+    
+    }
+    
+    .titEsculpidas{
+        display: flex;
+        padding-bottom: 1rem;
+        font-size: 2rem;
+    }
+    
+    .divEsculpidas{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        padding-right: 10rem;
+       
+    }
+    
+    .textoEsculpidas{
+      
+        padding-top: 1rem; 
+        padding-bottom: 2rem; 
+        padding-left: 5rem;
+        padding-right: 5rem;
+        font-size: small;
+        
+    }
+    
+    .subEsculpidas{
+       
+        padding-top: 2rem;
+    }
+
+
+/*anti-esmaltadas*/
+
+
+.mainEsmaltadas{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top: 4vh;
+    color: rgb(255, 0, 0);
+    
+    
+    }
+    
+    .titEsmaltadas{
+        display: flex;
+        padding-bottom: 1rem;
+        font-size: 2rem;
+    }
+    
+    .divEsmaltadas{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        padding-right: 10rem;
+       
+    }
+    
+    .textoEsmaltadas{
+        padding-top: 1rem; 
+        padding-bottom: 2rem; 
+        padding-left: 5rem;
+        padding-right: 5rem;
+        font-size: small;
+        
+    }
+    
+    .subEsmaltadas{
+        padding-top: 2rem;
+    }
+
+
+/*anti-kapping*/
+
+    .mainKapping{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding-top: 4vh;
+        color: rgb(255, 0, 0);
+        
+        
+        }
+        
+        .titKapping{
+            display: flex;
+            padding-bottom: 1rem;
+            font-size: 2rem;
+        }
+        
+        .divKapping{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            padding-right: 10rem;
+           
+        }
+        
+        .textoKapping{
+            padding-top: 1rem; 
+            padding-bottom: 2rem; 
+            padding-left: 5rem;
+            padding-right: 5rem;
+            font-size: small;
+            
+        }
+        
+        .subKapping{
+            padding-top: 2rem;
+        }
+
+
+ /*anti-Manicura Rusa*/
+
+        .mainManicura{
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            padding-top: 4vh;
+            color: rgb(255, 0, 0);
+            
+            
+            }
+            
+            .titManicura{
+                display: flex;
+                padding-bottom: 1rem;
+                font-size: 2rem;
+            }
+            
+            .divManicura{
+                display: flex;
+                height: 100%;
+                width: 100%;
+                padding-right: 10rem;
+               
+            }
+            
+            .textoManicura{
+                padding-top: 1rem; 
+                padding-bottom: 2rem; 
+                padding-left: 5rem;
+                padding-right: 5rem;
+                font-size: small;
+                
+            }
+            
+            .subManicura{
+                padding-top: 2rem;
+            }
+
+/*anti-Cursos*/
+
+.mainCursos{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top: 4vh;
+    color: rgb(255, 0, 0);
+    
+    
+    }
+    
+    .titCursos{
+        display: flex;
+        padding-bottom: 1rem;
+        font-size: 2rem;
+    }
+    
+    .divCursos{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        padding-right: 10rem;
+       
+    }
+    
+    .textoCursos{
+        padding-top: 1rem; 
+        padding-bottom: 2rem; 
+        padding-left: 5rem;
+        padding-right: 5rem;
+        font-size: small;
+        
+    }
+    
+    .subCursos{
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    .titAnotate{
+        display: flex;
+        padding-bottom: 3rem;
+        font-size: 3rem;
+        
+     }
+
+
+     .vidFrame{
+        
+        height: 100%;
+        width: 100%;
+    
+    }
+
+}
