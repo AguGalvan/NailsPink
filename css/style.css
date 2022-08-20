@@ -15,6 +15,7 @@ font-family: 'Montserrat', sans-serif;
 background-color: rgb(209, 209, 191);
 color:rgb(255, 0, 76);
 overflow-x: hidden;
+background-image: linear-gradient(to right bottom, #ebc30a, #c7ae0c, #a6990e, #878410, #6b6f11);
 
 }
 
@@ -59,8 +60,8 @@ header{
     justify-content: center;
     padding-top: 1rem; 
     padding-bottom: 2rem; 
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 .logoHeader{
@@ -105,16 +106,29 @@ grid-area: main;
 }
 
 .cardImg img{
-    width: 80%;
-    height: 80%;
+    width: 19rem;
+    height: 25rem;
     object-fit: cover;
     overflow: hidden;
+    border-radius: 27px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px rgb(233, 7, 101);
+    border: 1px solid rgb(255, 0, 212);
+    transition: all 400ms ease;
+ 
+}
+
+.cardImg img:hover{
+    box-shadow: 5px 5px 20px rgb(255, 0, 106);
+    transform: translateY(-3%);
 }
 
 .subCards{
     text-align: center;
     width: 80%;
     height: 80%;
+    
+
 }
 
 .cardEsculpidas{
@@ -127,7 +141,6 @@ margin-left: 3%;
     display: flex; 
     flex-direction: row;
     width: 100vw;
-   
 }
 
 
@@ -179,7 +192,7 @@ display: flex;
 flex-direction: column;
 justify-content:center;
 align-items: center;
-padding-top: 20vh;
+padding-top: 5vh;
 color: rgb(255, 0, 0);
 
 
@@ -192,11 +205,17 @@ color: rgb(255, 0, 0);
 }
 
 .divEsculpidas{
-    display: flex;
-    height: 80%;
-    width: 80%;
-    padding-left: 10rem;
-   
+    
+        display: flex;
+        width: 19rem;
+        height: 25rem;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 27px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 1px 10px rgb(233, 7, 101);
+        border: 1px solid rgb(255, 0, 212);
+        transition: all 400ms ease;
 }
 
 .textoEsculpidas{
@@ -226,7 +245,7 @@ color: rgb(255, 0, 0);
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    padding-top: 20vh;
+    padding-top: 5vh;
     color: rgb(255, 0, 0);
     
     
@@ -239,10 +258,17 @@ color: rgb(255, 0, 0);
     }
     
     .divEsmaltadas{
+       
         display: flex;
-        height: 80%;
-        width: 80%;
-        padding-left: 10rem;
+        width: 19rem;
+        height: 25rem;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 27px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 1px 10px rgb(233, 7, 101);
+        border: 1px solid rgb(255, 0, 212);
+        transition: all 400ms ease;
        
     }
     
@@ -273,7 +299,7 @@ color: rgb(255, 0, 0);
         flex-direction: column;
         justify-content:center;
         align-items: center;
-        padding-top: 20vh;
+        padding-top: 5vh;
         color: rgb(255, 0, 0);
         
         
@@ -286,10 +312,17 @@ color: rgb(255, 0, 0);
         }
         
         .divKapping{
-            display: flex;
-            height: 80%;
-            width: 80%;
-            padding-left: 10rem;
+            
+        display: flex;
+        width: 19rem;
+        height: 25rem;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 27px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 1px 10px rgb(233, 7, 101);
+        border: 1px solid rgb(255, 0, 212);
+        transition: all 400ms ease;
            
         }
         
@@ -320,7 +353,7 @@ color: rgb(255, 0, 0);
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    padding-top: 20vh;
+    padding-top: 5vh;
     color: rgb(255, 0, 0);
     
     
@@ -333,10 +366,17 @@ color: rgb(255, 0, 0);
     }
     
     .divManicura{
+        
         display: flex;
-        height: 80%;
-        width: 80%;
-        padding-left: 10rem;
+        width: 19rem;
+        height: 25rem;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 27px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 1px 10px rgb(233, 7, 101);
+        border: 1px solid rgb(255, 0, 212);
+        transition: all 400ms ease;
        
     }
     
@@ -370,7 +410,7 @@ color: rgb(255, 0, 0);
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    padding-top: 20vh;
+    padding-top: 5vh;
     color: rgb(255, 0, 0);
 }
 
@@ -382,10 +422,17 @@ font-size: 4rem;
 }
 
 .divCursos{
+    
     display: flex;
-    height: 80%;
-    width: 80%;
-    padding-left: 10rem;
+    width: 19rem;
+    height: 25rem;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 27px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px rgb(233, 7, 101);
+    border: 1px solid rgb(255, 0, 212);
+    transition: all 400ms ease;
 }
 
 .subCursos{
@@ -449,7 +496,7 @@ font-size: 4rem;
 #grid-index{
     display: grid;  
     grid-template-columns: 1fr;
-    grid-template-rows: 83px 1200px 400px;
+    grid-template-rows: 83px 2500px 350px;
     grid-template-areas:
                         "header"
                         "main"
@@ -458,14 +505,19 @@ font-size: 4rem;
 
 }
 
+header{
+   justify-content: center;
+  
+
+}
 
 .textoIndex{
     display: flex;
     align-content: center;
     justify-content: center;
     padding-top: 1rem; 
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
 }
 
 .mainImg{
@@ -479,19 +531,29 @@ font-size: 4rem;
    justify-content: center;
    padding-left: 240px;
    width: 50%;
-   height: 50%;
-   padding-bottom: 30rem;
+   height: 500%;
+   padding-bottom: 0rem;
+
+
 }
 
-
-
-
-.cardImg{
-    width: 70%;
-    height: 70%;
+.cardImg img{
+    width: 16rem;
+    height: 21rem;
     object-fit: cover;
     overflow: hidden;
+    border-radius: 27px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px rgb(233, 7, 101);
+    border: 1px solid rgb(255, 0, 212);
+    transition: none 400ms ease;
+
 }
+
+.cardEsculpidas{
+    padding-bottom: 6rem;
+}
+
 
 .subCards{
 padding-right: 70px;
@@ -557,10 +619,15 @@ footer{
     }
     
     .divEsculpidas{
-        display: flex;
-        height: 100%;
-        width: 100%;
-        padding-right: 10rem;
+        width: 16rem;
+        height: 21rem;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 27px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 1px 10px rgb(233, 7, 101);
+        border: 1px solid rgb(255, 0, 212);
+        transition: none 400ms ease;
        
     }
     
@@ -601,10 +668,15 @@ footer{
     }
     
     .divEsmaltadas{
-        display: flex;
-        height: 100%;
-        width: 100%;
-        padding-right: 10rem;
+        width: 16rem;
+        height: 21rem;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 27px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 1px 10px rgb(233, 7, 101);
+        border: 1px solid rgb(255, 0, 212);
+        transition: none 400ms ease;
        
     }
     
@@ -642,10 +714,15 @@ footer{
         }
         
         .divKapping{
-            display: flex;
-            height: 100%;
-            width: 100%;
-            padding-right: 10rem;
+            width: 16rem;
+            height: 21rem;
+            object-fit: cover;
+            overflow: hidden;
+            border-radius: 27px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 1px 10px rgb(233, 7, 101);
+            border: 1px solid rgb(255, 0, 212);
+            transition: none 400ms ease;
            
         }
         
@@ -683,10 +760,15 @@ footer{
             }
             
             .divManicura{
-                display: flex;
-                height: 100%;
-                width: 100%;
-                padding-right: 10rem;
+            width: 16rem;
+            height: 21rem;
+            object-fit: cover;
+            overflow: hidden;
+            border-radius: 27px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 1px 10px rgb(233, 7, 101);
+            border: 1px solid rgb(255, 0, 212);
+            transition: none 400ms ease;
                
             }
             
@@ -723,10 +805,15 @@ footer{
     }
     
     .divCursos{
-        display: flex;
-        height: 100%;
-        width: 100%;
-        padding-right: 10rem;
+        width: 16rem;
+        height: 21rem;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 27px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 1px 10px rgb(233, 7, 101);
+        border: 1px solid rgb(255, 0, 212);
+        transition: none 400ms ease;
        
     }
     
