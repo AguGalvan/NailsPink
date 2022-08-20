@@ -23,7 +23,7 @@ overflow-x: hidden;
 #grid-index{
     display: grid;  
     grid-template-columns: 1fr;
-    grid-template-rows: 83px 520px 70px;
+    grid-template-rows: 83px 620px 70px;
     grid-template-areas:
                         "header"
                         "main"
