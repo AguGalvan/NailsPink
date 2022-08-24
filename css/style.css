@@ -49,9 +49,15 @@ header{
     width: 100vw;
     display: flex;
     background-color: rgb(23, 2, 27);
-    justify-content:flex-end;
     grid-area: header;
 
+}
+
+
+
+
+.nav-link:hover{
+    color: red !important;
 }
 
 .textoIndex{
@@ -64,13 +70,27 @@ header{
     padding-right: 10rem;
 }
 
+/*obsoleto debido a bootstrap
+
 .logoHeader{
     font-size: 3rem;
     color:rgb(255, 0, 212)
 
+}*/
+
+.navbar .navbar-brand{
+    font-size: 3rem;
+    color:rgb(255, 0, 212)
+}
+
+.navbar{
+    background-color: transparent !important;
+
 }
 
 
+
+/*obsoleto debido a bootstrap
 
 .navegacion{
     display: flex;
@@ -82,6 +102,25 @@ header{
 
 }
 
+*/
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.nav-link{
+    display: flex;
+    width: 100px;
+    padding-inline: 5rem;
+    color:rgb(255, 0, 212)
+
+}
+
+/*obsoleto debido a bootstrap
 
 .navegacion ul{
     display: flex;
@@ -94,6 +133,17 @@ header{
     color:rgb(255, 0, 212)
 
 }
+*/
+
+.navbar ul li{
+    display: flex;
+    width: 100px;
+    padding-inline: 5rem;
+   
+
+}
+
+
 
 
 
@@ -496,7 +546,7 @@ font-size: 4rem;
 #grid-index{
     display: grid;  
     grid-template-columns: 1fr;
-    grid-template-rows: 83px 2500px 350px;
+    grid-template-rows: 83px 2600px 350px;
     grid-template-areas:
                         "header"
                         "main"
