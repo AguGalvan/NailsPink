@@ -19,12 +19,14 @@ background-image: linear-gradient(to right bottom, #ebc30a, #c7ae0c, #a6990e, #8
 
 }
 
-/*grids*/
+/*chau grids
+
+--grids--
 
 #grid-index{
     display: grid;  
     grid-template-columns: 1fr;
-    grid-template-rows: 83px 620px 70px;
+    grid-template-rows: 100px 620px 70px;
     grid-template-areas:
                         "header"
                         "main"
@@ -45,11 +47,12 @@ background-image: linear-gradient(to right bottom, #ebc30a, #c7ae0c, #a6990e, #8
 
 }
 
+*/
+
 header{
     width: 100vw;
     display: flex;
     background-color: rgb(23, 2, 27);
-    grid-area: header;
 
 }
 
@@ -80,11 +83,23 @@ header{
 
 .navbar .navbar-brand{
     font-size: 3rem;
-    color:rgb(255, 0, 212)
+        font-family: Impact;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        color: #ff00d4;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: capitalize;
+        
+        
+        
+        
 }
 
 .navbar{
-    background-color: transparent !important;
+    background-color: rgb(23, 2, 27) !important;
 
 }
 
@@ -150,10 +165,6 @@ header{
 /*links hacia las otras paginas*/
 
 
-main{
-grid-area: main;
-
-}
 
 .cardImg img{
     width: 19rem;
@@ -203,7 +214,6 @@ footer{
     padding-top: 20vh;
     padding-bottom: 20vh;
     background-color: rgb(0, 0, 0);
-    grid-area: footer;
     padding-left: 3rem;
     
     
@@ -518,15 +528,11 @@ font-size: 4rem;
 
 /*@medias*/
 
-.burger{
-    width: 25px;
-    cursor: pointer;
-    display: none;
-}
 
 
 
-@media(max-width: 767px){
+
+@media(max-width: 849px){
 
 
 /*anti-header*/
@@ -540,13 +546,14 @@ font-size: 4rem;
 
 }
 
+/*chau grids
 
-/*anti-index*/
+--anti-index--
 
 #grid-index{
     display: grid;  
     grid-template-columns: 1fr;
-    grid-template-rows: 83px 2600px 350px;
+    grid-template-rows: 100px 2600px 350px;
     grid-template-areas:
                         "header"
                         "main"
@@ -555,11 +562,14 @@ font-size: 4rem;
 
 }
 
+*/
+
 header{
    justify-content: center;
   
 
 }
+
 
 .textoIndex{
     display: flex;
@@ -570,19 +580,14 @@ header{
     padding-right: 4rem;
 }
 
-.mainImg{
-    display: flex;
-    flex-direction: column;
 
-}
 
 .contenedor{
    flex-wrap: wrap;
    justify-content: center;
-   padding-left: 240px;
-   width: 50%;
-   height: 500%;
-   padding-bottom: 0rem;
+   padding-left: 220px;
+   width: 1px;
+   
 
 
 }
