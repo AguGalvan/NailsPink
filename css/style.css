@@ -19,35 +19,7 @@ background-image: linear-gradient(to right bottom, #ebc30a, #c7ae0c, #a6990e, #8
 
 }
 
-/*chau grids
 
---grids--
-
-#grid-index{
-    display: grid;  
-    grid-template-columns: 1fr;
-    grid-template-rows: 100px 620px 70px;
-    grid-template-areas:
-                        "header"
-                        "main"
-                        "footer"
-
-
-}
-
-#grid-esculpidas{
-    display: grid;  
-    grid-template-columns: 1fr;
-    grid-template-rows: 83px 520px 70px;
-    grid-template-areas:
-                        "header"
-                        "main"
-                        "footer"
-
-
-}
-
-*/
 
 header{
     width: 100vw;
@@ -73,13 +45,7 @@ header{
     padding-right: 10rem;
 }
 
-/*obsoleto debido a bootstrap
 
-.logoHeader{
-    font-size: 3rem;
-    color:rgb(255, 0, 212)
-
-}*/
 
 .navbar .navbar-brand{
     font-size: 3rem;
@@ -105,19 +71,7 @@ header{
 
 
 
-/*obsoleto debido a bootstrap
 
-.navegacion{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 90vw;
-    height: 70px;
-    color:rgb(255, 0, 212)
-
-}
-
-*/
 
 .header{
     display: flex;
@@ -135,20 +89,7 @@ header{
 
 }
 
-/*obsoleto debido a bootstrap
 
-.navegacion ul{
-    display: flex;
-
-}
-
-.navegacion ul li{
-    width: 100px;
-    padding-inline: 5rem;
-    color:rgb(255, 0, 212)
-
-}
-*/
 
 .navbar ul li{
     display: flex;
@@ -546,23 +487,7 @@ font-size: 4rem;
 
 }
 
-/*chau grids
 
---anti-index--
-
-#grid-index{
-    display: grid;  
-    grid-template-columns: 1fr;
-    grid-template-rows: 100px 2600px 350px;
-    grid-template-areas:
-                        "header"
-                        "main"
-                        "footer"
-
-
-}
-
-*/
 
 header{
    justify-content: center;
