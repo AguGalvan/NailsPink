@@ -1,0 +1,33 @@
+.nav-link:hover {
+    color: red !important;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 3rem;
+    font-family: Impact;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #ff00d4;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+  }
+  
+  .navbar {
+    background-color: rgb(23, 2, 27) !important;
+  }
+
+  .nav-link {
+    display: flex;
+    width: 100px;
+    padding-inline: 5rem;
+    color: rgb(255, 0, 212);
+  }
+  
+  .navbar ul li {
+    display: flex;
+    width: 100px;
+    padding-inline: 5rem;
+  }
