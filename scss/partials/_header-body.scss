@@ -1,0 +1,22 @@
+header {
+    width: 100vw;
+    display: flex;
+    background-color: rgb(23, 2, 27);
+  }
+
+  
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(209, 209, 191);
+    color: rgb(255, 0, 76);
+    overflow-x: hidden;
+    background-image: linear-gradient(to right bottom, #ebc30a, #c7ae0c, #a6990e, #878410, #6b6f11);
+    .header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+  }
+
+ 
