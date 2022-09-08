@@ -1,6 +1,10 @@
-@import "./partials/header";
-@import "./partials/generales";
+@import "./partials/main";
+@import "./partials/header-body";
+@import "./partials/generales-medias";
 @import "./partials/navbar";
 @import "./partials/main";
 @import "./partials/mainpaginas";
-@import "./partials/footer"
+@import "./partials/footer";
+@import "./partials/extend";
+@import "./partials/mixin";
+@import "./partials/variables";

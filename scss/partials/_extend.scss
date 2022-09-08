@@ -1,0 +1,45 @@
+%mainPaginas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5vh;
+        color: rgb(255, 0, 0);
+}
+
+%titulosMain {
+    display: flex;
+    padding-bottom: 3rem;
+    font-size: 4rem;
+}
+
+%fotoPaginas {
+    display: flex;
+    width: 19rem;
+    height: 25rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    overflow: hidden;
+    border-radius: 27px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px rgb(233, 7, 101);
+    border: 1px solid rgb(255, 0, 212);
+    transition: all 400ms ease;
+}
+
+%textoPaginas {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+%subtitulosPaginas {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
